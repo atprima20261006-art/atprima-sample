@@ -1,0 +1,28 @@
+html { font-family: sans-serif; text-size-adjust: 100%; }
+body { margin: 0px; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+pre { overflow: auto; }
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+table { border-collapse: collapse; border-spacing: 0px; }
+td, th { padding: 0px; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+.block-regist { width: 800px; margin: 10px auto; animation: 2s ease 0s 1 normal none running fadein; }
+.block-regist h1 { font-weight: 100; }
+.regist-box { padding: 10px; }
+.regist-main-title { font-size: 24px; text-align: center; }
+@media only screen and (max-width: 768px){.block-regist { width: 100%; margin: 0px auto; }}
+.block { width: 100%; float: left; position: relative; margin-top: 10px; background: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); border-radius: 5px; }
+.block-content, .block-footer { padding: 20px; border-radius: 5px; position: relative; }
+.tokutei_table_font { font-size: 12px; }
+.table-bordered { border: 1px solid rgb(221, 221, 221) !important; }
+.table { border-collapse: collapse !important; }
+.table td, .table th { background-color: rgb(255, 255, 255) !important; }
+.table-bordered td { padding: 10px; border-bottom: 1px solid rgb(221, 221, 221) !important; }
+.table { width: 100%; max-width: 100%; margin-bottom: 20px; }
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding: 8px; line-height: 1.42857; vertical-align: top; border-top: 1px solid rgb(221, 221, 221); }
+.table-bordered { border: 1px solid rgb(221, 221, 221); }
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td { border: 1px solid rgb(221, 221, 221); }
+.table-striped > tbody > tr:nth-child(2n+1) { background-color: rgb(249, 249, 249); }
+.table-hover > tbody > tr:hover { background-color: rgb(245, 245, 245); }
+pre { padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; white-space: pre-line; }
+pre.info_ec { padding: 0px; margin: 0px; }

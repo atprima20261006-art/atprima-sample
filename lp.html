@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>アトプリマ</title></head><body>
+<script>
+(function(){
+  var u=new URLSearchParams(location.search).get('u')||'';
+  if(!/^[A-Za-z0-9_\-]+$/.test(u)){u='';}
+  fetch('/p_'+u+'.html',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.text();})
+  .then(function(h){document.open();document.write(h);document.close();})
+  .catch(function(){document.body.innerHTML='<p style="padding:40px;text-align:center;font-family:sans-serif">ページが見つかりません。</p>';});
+})();
+</script></body></html>
