@@ -26,4 +26,5 @@ body { margin: 0px; font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Go
 .copyright { width: 100%; background: rgb(227, 227, 227); margin: auto; color: rgb(62, 62, 62); font-size: 10px; text-align: center; }
 .item1-box { overflow: hidden; }
 .footer_container ul { margin: 0px; padding: 0px; display: flex; flex-wrap: wrap; justify-content: center; }
-.sample-form-note { max-width: 750px; margin: 30px auto; padding: 30px 20px; border: 2px dashed rgb(187, 187, 187); color: rgb(102, 102, 102); text-align: center; font-size: 15px; line-height: 1.8; background: rgb(250, 250, 250); }
+.sample-form-note { max-width: 750px; margin: 30px auto; padding: 30px 20px; border: 2px dashed rgb(187, 187, 187); color: rgb(102, 102, 102); text-align: center; font-size: 15px; line-height: 1.8; background: rgb(250, 250, 250); }.cta-below{width:92%;margin:3% auto 4%}.cta-below a{display:block}.cta-below img{display:block;width:100%}.cta-below a:hover img{opacity:.8}
+.law-link{text-align:center;margin:0 0 6%;font-size:3.2vw}@media screen and (min-width:750px){.law-link{font-size:24px}}.law-link a{color:#888}
