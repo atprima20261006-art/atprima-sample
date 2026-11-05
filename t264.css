@@ -31,4 +31,4 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
 .table-striped > tbody > tr:nth-child(2n+1) { background-color: rgb(249, 249, 249); }
 .table-hover > tbody > tr:hover { background-color: rgb(245, 245, 245); }
 pre { padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; white-space: pre-line; }
-pre.info_ec { padding: 0px; margin: 0px; }
+pre.info_ec { padding: 0px; margin: 0px; }pre.info_ec{margin:0!important}
